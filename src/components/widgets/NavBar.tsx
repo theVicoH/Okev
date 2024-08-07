@@ -1,12 +1,16 @@
-import BurgerButton from "../ui/BurgerButton"
+import BurgerButton from "../ui/BurgerButton";
 
-const NavBar = () => {
-  return (
-    <div className="px-8 flex flex-row justify-between border-b-[1px] border-neutral-50 fixed top-0 w-full z-20">
-      <h3 className='font-source text-4xl font-light text-white my-5'>OKEV</h3>
-      <BurgerButton />
-    </div>
-  )
+interface Props {
+  isScrolled: boolean;
 }
 
-export default NavBar
+const NavBar: React.FC<Props> = ({ isScrolled }) => {
+  return (
+    <div className={`px-8 flex flex-row justify-between border-b-[1px] fixed top-0 w-full z-20 transition-colors duration-300 ${isScrolled ? 'bg-white border-neutral-300' : 'bg-transparent border-neutral-50'}`}>
+      <h3 className={`font-source text-4xl font-light ${isScrolled ? 'text-black' : 'text-white'} my-5`}>OKEV</h3>
+      <BurgerButton isScrolled={isScrolled} />
+    </div>
+  );
+};
+
+export default NavBar;

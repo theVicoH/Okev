@@ -1,7 +1,11 @@
 import { useRef, useState } from 'react';
 import { gsap } from 'gsap';
 
-const BurgerButton = () => {
+interface Props {
+  isScrolled: boolean;
+}
+
+const BurgerButton : React.FC<Props> = ( {isScrolled} ) => {
   const [isOpen, setIsOpen] = useState(false);
   const topBar = useRef(null);
   const middleBar = useRef(null);
@@ -40,13 +44,13 @@ const BurgerButton = () => {
     <div className="flex items-center justify-center">
       <button onClick={handleToggle} className="relative w-8 h-8 flex items-center justify-center">
         <div className="absolute w-full flex flex-col items-center justify-between">
-          <div ref={topBar} className="w-full h-0.5 bg-neutral-50"></div>
-          <div ref={middleBar} className="w-full h-0.5 bg-neutral-50 mt-2"></div>
-          <div ref={bottomBar} className="w-full h-0.5 bg-neutral-50 mt-2"></div>
+          <div ref={topBar} className={`w-full h-0.5 ${isScrolled ? 'bg-black' : 'bg-white'} `}></div>
+          <div ref={middleBar} className={`w-full h-0.5  mt-2 ${isScrolled ? 'bg-black' : 'bg-white'} `}></div>
+          <div ref={bottomBar} className={`w-full h-0.5 mt-2 ${isScrolled ? 'bg-black' : 'bg-white'} `}></div>
         </div>
         <div className="absolute w-full h-full flex items-center justify-center">
-          <div ref={crossTopBar} className="absolute w-0 h-0.5 bg-neutral-50 opacity-0"></div>
-          <div ref={crossBottomBar} className="absolute w-0 h-0.5 bg-neutral-50 opacity-0"></div>
+          <div ref={crossTopBar} className={`absolute w-0 h-0.5 opacity-0 ${isScrolled ? 'bg-black' : 'bg-white'} `}></div>
+          <div ref={crossBottomBar} className={`absolute w-0 h-0.5 opacity-0 ${isScrolled ? 'bg-black' : 'bg-white'} `}></div>
         </div>
       </button>
     </div>
