@@ -30,7 +30,7 @@ const HeroCreationSection = () => {
   }, []);
 
   return (
-    <div className='relative  h-svh overflow-hidden'>
+    <div id="hero-section" className='relative  h-svh overflow-hidden'>
       <img 
         src={heroImage} 
         alt="Hero image" 
