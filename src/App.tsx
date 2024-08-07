@@ -33,7 +33,6 @@ function App() {
 
       scroll.on("scroll", handleScroll);
 
-      // Clean up the effect when the component unmounts
       return () => {
         scroll.destroy();
       };
