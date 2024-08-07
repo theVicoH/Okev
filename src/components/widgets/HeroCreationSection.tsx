@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import locomotiveScroll from 'locomotive-scroll';
-import heroImage from '../../assets/images/hero-image.jpeg';
+import heroImage from '../../assets/images/journee-mondiale-de-l-asthme.jpeg';
 import { GoArrowDown } from "react-icons/go";
 
 interface LocomotiveScrollEvent {
