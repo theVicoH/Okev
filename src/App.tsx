@@ -40,7 +40,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-neutral-50">
       <NavBar isScrolled={isScrolled} />
       <div data-scroll-container ref={scrollRef}>
         <CreationsPage />
