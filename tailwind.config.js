@@ -2,6 +2,7 @@
 module.exports = {
   darkMode: ["class"],
   content: [
+    './index.html',
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
@@ -9,6 +10,9 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      'source': ['"Source Serif 4"', 'serif'],
+    },
     container: {
       center: true,
       padding: "2rem",
