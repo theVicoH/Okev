@@ -55,7 +55,7 @@ const HeroCreationSection = () => {
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
         <h1 
           ref={titleRef} 
-          className="text-neutral-50 font-source text-9xl uppercase md:text-9xl"
+          className="text-neutral-50 font-source text-5xl uppercase md:text-9xl"
         >
           Nos créations
         </h1>

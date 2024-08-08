@@ -3,6 +3,7 @@ import NavBar from "./components/widgets/NavBar";
 import CreationsPage from "./pages/CreationsPage";
 import locomotiveScroll from "locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
+import Footer from "./components/widgets/Footer";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,6 +46,7 @@ function App() {
       <div data-scroll-container ref={scrollRef}>
         <CreationsPage />
       </div>
+      <Footer />
     </div>
   );
 }
