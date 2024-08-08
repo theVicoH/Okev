@@ -3,282 +3,282 @@
     "id": 1,
     "title": "Chloé Fleur de Parfum",
     "description": "La Rose éternelle",
-    "imagePath": "../../assets/images/cloe-fleur-de-parfum.jpg"
+    "imagePath": "src/assets/images/chloe-fleur-de-parfum.jpg"
   },
   {
     "id": 2,
     "title": "A Gem in every woman's hand",
     "description": "You shine like diamond",
-    "imagePath": "../../assets/images/gem-in-every-women-hand.jpg"
+    "imagePath": "src/assets/images/gem-in-every-women-hand.jpg"
   },
   {
     "id": 3,
     "title": "Valentino Garvani & Roman Stud",
     "description": "The girl with the One Stud Bag",
-    "imagePath": "../../assets/images/valentino.jpg"
+    "imagePath": "src/assets/images/valentino.jpg"
   },
   {
     "id": 4,
     "title": "Journée mondiale de l'asthme",
     "description": "L'inspiration respire à pleins poumons",
-    "imagePath": "../../assets/images/journee-mondiale-de-l-asthme.jpeg"
+    "imagePath": "src/assets/images/journee-mondiale-de-l-asthme.jpeg"
   },
   {
     "id": 5,
     "title": "MAJE",
     "description": "Quand l'élégance parisienne rencontre l'audace créative d'une influenceuse mode",
-    "imagePath": "../../assets/images/maje.png"
+    "imagePath": "src/assets/images/maje.png"
   },
   {
     "id": 6,
     "title": "KOTN",
     "description": "Une collaboration inspirante pour une mode éthique et responsable",
-    "imagePath": "../../assets/images/kotn.png"
+    "imagePath": "src/assets/images/kotn.png"
   },
   {
     "id": 7,
     "title": "IKKS",
     "description": "Personnalisez votre sac pour une expérience mode unique et audacieuse",
-    "imagePath": "../../assets/images/ikks.png"
+    "imagePath": "src/assets/images/ikks.png"
   },
   {
     "id": 8,
     "title": "TATA HARPER",
     "description": "L'élixir de beauté naturelle",
-    "imagePath": "../../assets/images/tata-harper.jpeg"
+    "imagePath": "src/assets/images/tata-harper.jpeg"
   },
   {
     "id": 9,
     "title": "Lolarose",
     "description": "L'Élégance Intemporelle",
-    "imagePath": "../../assets/images/lolarose.png"
+    "imagePath": "src/assets/images/lolarose.png"
   },
   {
     "id": 10,
     "title": "Esprit",
     "description": "La mode comme une histoire captivante et intemporelle",
-    "imagePath": "../../assets/images/esprit.png"
+    "imagePath": "src/assets/images/esprit.png"
   },
   {
     "id": 11,
     "title": "Tudor",
     "description": "Le Temps d'Élégance",
-    "imagePath": "../../assets/images/tudor.png"
+    "imagePath": "src/assets/images/tudor.png"
   },
   {
     "id": 12,
     "title": "SUNNAMUSK",
     "description": "Nous sommes intervenus afin de créer le buzz pour l'ouverture de leur nouvelle boutique !",
-    "imagePath": "../../assets/images/sunnamusk.png"
+    "imagePath": "src/assets/images/sunnamusk.png"
   },
   {
     "id": 13,
     "title": "Vestiaire Collective",
     "description": "Quand la Mode Rencontre l'Art du Mix",
-    "imagePath": "../../assets/images/vestiaire-collective.png"
+    "imagePath": "src/assets/images/vestiaire-collective.png"
   },
   {
     "id": 14,
     "title": "Jonak",
     "description": "OKEV apport du storytelling créatif et du succès à la campagne d'influence de Jonak",
-    "imagePath": "../../assets/images/jonak.jpg"
+    "imagePath": "src/assets/images/jonak.jpg"
   },
   {
     "id": 15,
     "title": "THEORY",
     "description": "OKEV aide Theroy à mettre en valeur ses designs et matériaux supérieurs grâce au marketing d'influence",
-    "imagePath": "../../assets/images/theory.png"
+    "imagePath": "src/assets/images/theory.png"
   },
   {
     "id": 16,
     "title": "Cluse",
     "description": "L'Élégance Intemporelle Révélée",
-    "imagePath": "../../assets/images/cluse.png"
+    "imagePath": "src/assets/images/cluse.png"
   },
   {
     "id": 17,
     "title": "MARY COHR",
     "description": "L'aromathérapie de beauté de Paris: l'expérience Mary Cohr",
-    "imagePath": "../../assets/images/mary-cohr.jpeg"
+    "imagePath": "src/assets/images/mary-cohr.jpeg"
   },
   {
     "id": 18,
     "title": "About the super puff",
     "description": "Arctic by Aritzia",
-    "imagePath": "../../assets/images/about-the-super-puff.jpeg"
+    "imagePath": "src/assets/images/about-the-super-puff.jpeg"
   },
   {
     "id": 19,
     "title": "SAEVE Crème Teintée",
     "description": "L'Élixir de Beauté Naturelle",
-    "imagePath": "../../assets/images/saeve-creme-teintee.png"
+    "imagePath": "src/assets/images/saeve-creme-teintee.png"
   },
   {
     "id": 20,
     "title": "JACQUEMuS",
     "description": "Jacquemus s'associe à OKEV et Alone Pierre pour une campagne d'influence",
-    "imagePath": "../../assets/images/jacquemus.jpeg"
+    "imagePath": "src/assets/images/jacquemus.jpeg"
   },
   {
     "id": 21,
     "title": "DIOR",
     "description": "Dior s'associe à OKEV pour une campagne d'influence",
-    "imagePath": "../../assets/images/dior.jpeg"
+    "imagePath": "src/assets/images/dior.jpeg"
   },
   {
     "id": 22,
     "title": "DIM",
     "description": "DIM s'associe à OKEV pour une campagne d'influence omnicanale",
-    "imagePath": "../../assets/images/dim.jpeg"
+    "imagePath": "src/assets/images/dim.jpeg"
   },
   {
     "id": 23,
     "title": "Quicksilver X Stranger Things",
     "description": "Dans les coulisses de Stranger Things avec Quicksilver et Netflix: la création d'une campagne de vêtements et d'accessoires réussie",
-    "imagePath": "../../assets/images/quicksilver.jpeg"
+    "imagePath": "src/assets/images/quicksilver.jpeg"
   },
   {
     "id": 24,
     "title": "Perfect Corset NYC",
     "description": "Dans les Courbes de la Confiance",
-    "imagePath": "../../assets/images/perfect-corset-nyc.png"
+    "imagePath": "src/assets/images/perfect-corset-nyc.png"
   },
   {
     "id": 25,
     "title": "Paco Rabanne",
     "description": "Partenariat pour la prospérité : voyage de presse de Paco Rabanne avec OKEV sur l'île d'Ibisa",
-    "imagePath": "../../assets/images/paco-rabanne.png"
+    "imagePath": "src/assets/images/paco-rabanne.png"
   },
   {
     "id": 26,
     "title": "OPPO",
     "description": "Partenariat avec OPPO pour une année de création de contenu exceptionnelle",
-    "imagePath": "../../assets/images/oppo.jpeg"
+    "imagePath": "src/assets/images/oppo.jpeg"
   },
   {
     "id": 27,
     "title": "Givenchy",
     "description": "Un marketing social média de qualité supérieure conduit à une campagne réussie de Givenchy",
-    "imagePath": "../../assets/images/givenchy.png"
+    "imagePath": "src/assets/images/givenchy.png"
   },
   {
     "id": 28,
     "title": "Chantelle",
     "description": "Succès dy marketing du d'influence : la dernière collection de Chantelle décolle grâce à l'aide d'OKEV",
-    "imagePath": "../../assets/images/chantelle.jpeg"
+    "imagePath": "src/assets/images/chantelle.jpeg"
   },
   {
     "id": 29,
     "title": "Canada Goose",
     "description": "OKEV & Canada Goose s'associent pouru ne campagne touchante pour la Fête des pères",
-    "imagePath": "../../assets/images/canada-goose.jpeg"
+    "imagePath": "src/assets/images/canada-goose.jpeg"
   },
   {
     "id": 30,
     "title": "Amantys",
     "description": "Renforcer les liens entre mères et enfants avec Amantys",
-    "imagePath": "../../assets/images/amantys.jpeg"
+    "imagePath": "src/assets/images/amantys.jpeg"
   },
   {
     "id": 31,
     "title": "GISADA",
     "description": "Mettre une marque en avant : le rôle d'OKEV dans la campagne emblématique de parfum de Gisada",
-    "imagePath": "../../assets/images/gisada.jpeg"
+    "imagePath": "src/assets/images/gisada.jpeg"
   },
   {
     "id": 32,
     "title": "Visit Abu Dhabi",
     "description": "Exceptional trip of influencers to Abu Dhabi",
-    "imagePath": "../../assets/images/visit-abu-dhabi.jpeg"
+    "imagePath": "src/assets/images/visit-abu-dhabi.jpeg"
   },
   {
     "id": 33,
     "title": "In Saudi!",
     "description": "Exceptional trip of influencers to Saudi Arabia",
-    "imagePath": "../../assets/images/in-saudi.jpeg"
+    "imagePath": "src/assets/images/in-saudi.jpeg"
   },
   {
     "id": 34,
     "title": "Reset, go clear!",
     "description": "Moment of Clarity",
-    "imagePath": "../../assets/images/reset-go-clear.jpeg"
+    "imagePath": "src/assets/images/reset-go-clear.jpeg"
   },
   {
     "id": 35,
     "title": "GISADA",
     "description": "Ambassador",
-    "imagePath": "../../assets/images/gisada-2.jpeg"
+    "imagePath": "src/assets/images/gisada-2.jpeg"
   },
   {
     "id": 36,
     "title": "UB22 Perfect Running Shoe to Enjoy",
     "description": "Celebrate the euphoria of running & the pleasure of freedom",
-    "imagePath": "../../assets/images/ub22.jpeg"
+    "imagePath": "src/assets/images/ub22.jpeg"
   },
   {
     "id": 37,
     "title": "Feel the power of LACOSTE",
     "description": "The L1212 Christmas",
-    "imagePath": "../../assets/images/lacoste.png"
+    "imagePath": "src/assets/images/feel-the-power-of-lacoste.jpeg"
   },
   {
     "id": 38,
     "title": "Designed and Engineered for Women",
     "description": "IVY, Sync your body & mind",
-    "imagePath": "../../assets/images/designed-and-engineered-for-women.jpeg"
+    "imagePath": "src/assets/images/designed-and-engineered-for-women.jpeg"
   },
   {
     "id": 39,
     "title": "Four Seasons Hotel Miami",
     "description": "Luxe redéfini grâce au marketing d'influence",
-    "imagePath": "../../assets/images/four-seasons-hotel-miami.jpeg"
+    "imagePath": "src/assets/images/four-seasons-hotel-miami.jpeg"
   },
   {
     "id": 40,
     "title": "Narciso Rodriguez",
     "description": "Le nouveau parfum de Narciso Rodriguez en lumière sur les réseaux sociaux",
-    "imagePath": "../../assets/images/narciso-rodriguez.png"
+    "imagePath": "src/assets/images/narciso-rodriguez.png"
   },
   {
     "id": 41,
     "title": "PULL&BEAR",
     "description": "Pull&Bear fait sensation sur TikTok avec sa nouvelle collection",
-    "imagePath": "../../assets/images/pull-bear.png"
+    "imagePath": "src/assets/images/pull-bear.png"
   },
   {
     "id": 42,
     "title": "Stella Luna",
     "description": "Une fusion unique entre l'art et la mode lors de la Fashion Week de janvier 2023",
-    "imagePath": "../../assets/images/stella-luna.png"
+    "imagePath": "src/assets/images/stella-luna.png"
   },
   {
     "id": 43,
     "title": "Thalgo",
     "description": "La Mer Éclatante, Une Ode à la Beauté Natuellel de Votre Peau",
-    "imagePath": "../../assets/images/thalgo.png"
+    "imagePath": "src/assets/images/thalgo.png"
   },
   {
     "id": 44,
     "title": "Nivea",
     "description": "Une alliance de confiance pour une peau éclatante",
-    "imagePath": "../../assets/images/nivea.png"
+    "imagePath": "src/assets/images/nivea.png"
   },
   {
     "id": 45,
     "title": "Adidas bra revolution",
     "description": "Soutenir le confort et la performance des femmes avec les soutiens-gorge de sport Adidas",
-    "imagePath": "../../assets/images/adidas-bra-revolution.jpeg"
+    "imagePath": "src/assets/images/adidas-bra-revolution.jpeg"
   },
   {
     "id": 46,
     "title": "Can you feel it campaign",
     "description": "Sport meant to feel good !",
-    "imagePath": "../../assets/images/can-you-feel-it-campaign.jpeg"
+    "imagePath": "src/assets/images/can-you-feel-it-campaign.jpeg"
   },
   {
     "id": 47,
     "title": "Adidas Agravic Yoga",
     "description": "Trouvez votre chemin avec la nouvelle collection de yoga Adidas",
-    "imagePath": "../../assets/images/adidas-agravic-yoga.jpeg"
+    "imagePath": "src/assets/images/adidas-agravic-yoga.jpeg"
   }
 ]

@@ -1,3 +1,4 @@
+import CardGrid from '@/components/widgets/CradGrid';
 import HeroCreationSection from '../components/widgets/HeroCreationSection';
 
 const CreationsPage = () => {
@@ -19,8 +20,8 @@ const CreationsPage = () => {
           et fort le message que vous voulez délivrer, créer une image de marque
           créative ou encore développer une stratégie marketing impactante.
         </p>
-        
       </div>
+      <CardGrid />
     </div>
   );
 }
