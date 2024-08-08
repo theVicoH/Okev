@@ -6,7 +6,7 @@ const CreationsPage = () => {
   return (
     <div className="overflow-auto">
       <HeroCreationSection />
-      <div className="p-4 flex flex-col items-center">
+      <div id="about-us-section" className="p-4 flex flex-col items-center">
         <p className="mx-4 max-w-screen-md pt-20 text-md md:w-full md:mx-0">
           Avec les marques, nous voulons une histoire sur le long terme,
           dépasser des limites, afin de surprendre, captiver, susciter la
@@ -26,7 +26,7 @@ const CreationsPage = () => {
       </div>
       <CardGrid />
       <div className="p-4 flex flex-col items-center py-28">
-        <div className="flex flex-col items-start gap-10">
+        <div id="contact-section" className="flex flex-col items-start gap-10">
           <h4 className="text-black font-source font-light mx-4 text-3xl uppercase max-w-screen-md md:text-4xl md:mx-0">
             Vous souhaitez démarrer un projet avec nous ?
           </h4>
