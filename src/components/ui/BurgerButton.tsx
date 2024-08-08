@@ -3,9 +3,10 @@ import { gsap } from 'gsap';
 
 interface Props {
   isScrolled: boolean;
+  onClick: () => void;
 }
 
-const BurgerButton : React.FC<Props> = ( {isScrolled} ) => {
+const BurgerButton: React.FC<Props> = ({ isScrolled, onClick }) => {
   const [isOpen, setIsOpen] = useState(false);
   const topBar = useRef(null);
   const middleBar = useRef(null);
@@ -14,6 +15,7 @@ const BurgerButton : React.FC<Props> = ( {isScrolled} ) => {
   const crossBottomBar = useRef(null);
 
   const handleToggle = () => {
+    onClick();
     if (!isOpen) {
       gsap.to(topBar.current, { duration: 0.1, width: 0, transformOrigin: "left", onComplete: () => {
         gsap.to(middleBar.current, { duration: 0.1, width: 0, transformOrigin: "left", onComplete: () => {
