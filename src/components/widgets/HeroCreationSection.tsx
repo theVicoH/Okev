@@ -10,7 +10,13 @@ interface LocomotiveScrollEvent {
   };
 }
 
-const HeroCreationSection = () => {
+interface HeroCreationSectionProps {
+  scroll: {
+    scrollTo: (target: HTMLElement | string, options?: { offset?: number }) => void;
+  } | null;
+}
+
+const HeroCreationSection: React.FC<HeroCreationSectionProps> = ({ scroll }) => {
   const titleRef = useRef<HTMLHeadingElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
 
@@ -31,18 +37,24 @@ const HeroCreationSection = () => {
         });
       };
 
-      const scroll = new locomotiveScroll({
+      const scrollInstance = new locomotiveScroll({
         el: scrollContainer,
         smooth: true,
       });
 
-      scroll.on('scroll', handleScroll);
+      scrollInstance.on('scroll', handleScroll);
 
       return () => {
-        scroll.destroy();
+        scrollInstance.destroy();
       };
     }
   }, []);
+
+  const handleDiscoverClick = () => {
+    if (scroll) {
+      scroll.scrollTo('#about-us-section', { offset: -50 });
+    }
+  };
 
   return (
     <div id="hero-section" className='relative h-screen overflow-hidden'>
@@ -62,6 +74,7 @@ const HeroCreationSection = () => {
       </div>
       <button 
         ref={buttonRef} 
+        onClick={handleDiscoverClick}
         className="absolute bottom-20 left-1/2 transform -translate-x-1/2 font-source uppercase font-light text-neutral-50 flex flex-col items-center gap-2"
       >
         <span>Découvrir</span>

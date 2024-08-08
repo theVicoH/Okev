@@ -1,11 +1,29 @@
+import { useRef, useEffect } from 'react';
 import HeroCreationSection from "@/components/widgets/HeroCreationSection";
 import { Button } from "@/components/ui/button";
 import CardGrid from '@/components/widgets/CradGrid';
+import locomotiveScroll from 'locomotive-scroll';
 
 const CreationsPage = () => {
+  const scrollRef = useRef<locomotiveScroll | null>(null);
+
+  useEffect(() => {
+    const scrollContainer = document.querySelector("[data-scroll-container]") as HTMLElement;
+    if (scrollContainer) {
+      scrollRef.current = new locomotiveScroll({
+        el: scrollContainer,
+        smooth: true,
+      });
+
+      return () => {
+        scrollRef.current?.destroy();
+      };
+    }
+  }, []);
+
   return (
     <div className="overflow-auto">
-      <HeroCreationSection />
+      <HeroCreationSection scroll={scrollRef.current} />
       <div className="p-4 flex flex-col items-center">
         <div id="about-us-section" className="pt-20">
           <p className="mx-4 max-w-screen-md text-md md:w-full md:mx-0">
