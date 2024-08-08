@@ -68,3 +68,6 @@
   }
 }
 
+.even-col, .odd-col {
+  transition: transform 0.3s ease-out;
+}
