@@ -56,8 +56,8 @@ function App() {
       <SideBar scroll={scroll} />
       <div data-scroll-container ref={scrollRef}>
         <CreationsPage />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-50 text-gray-700 py-8 px-4 border-t-[1px] border-neutral-300 md:px-8">
+    <footer className="bg-neutral-50 text-black py-8 px-4 border-t-[1px] border-neutral-300 md:px-8">
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -45,16 +45,16 @@ const Footer: React.FC = () => {
             <h3 className="font-source text-lg  uppercase mb-2">Recevez votre newsletter</h3>
             <div className="flex">
               <Input placeholder='Insérez votre adresse e-mail'/>
-              <Button className="px-4 py-2 bg-gray-700 text-white rounded-r-md">
+              <Button className="px-4 py-2 bg-black text-neutral-50 rounded-r-md">
                 &gt;
               </Button>
             </div>
           </div>
         </div>
         <div className="text-center mt-8">
-          <a href="#" className="text-gray-500 hover:text-gray-700">Changer la langue</a>
+          <a href="#" className="text-neutral-50 hover:text-black">Changer la langue</a>
         </div>
-        <div className="text-center text-gray-500 text-sm mt-4">
+        <div className="text-center text-black text-sm mt-4">
           Copyright © Okev 2017-2022.
         </div>
       </div>

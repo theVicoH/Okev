@@ -39,7 +39,6 @@ const CreationsPage = () => {
           </p>
           <Button variant="outline">Nous contactez</Button>
         </div>
-
       </div>
     </div>
   );
